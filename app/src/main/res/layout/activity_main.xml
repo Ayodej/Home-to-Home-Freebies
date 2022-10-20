@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/mainFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:defaultNavHost="true"
+        app:layout_constraintBottom_toTopOf="@id/llBottomNav"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <LinearLayout
+        android:id="@+id/llBottomNav"
+        android:layout_width="0dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/rounded_nav"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/flHome"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/ivHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_house"
+                android:background="@drawable/circle3"
+                android:layout_gravity="center"
+                android:padding="14dp"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/flProfile"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/ivProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_profile"
+                android:background="@android:color/transparent"
+                android:layout_gravity="center"
+                android:padding="14dp"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_add"
+        app:backgroundTint="#D0B8A8"
+        app:tint="#fff"
+        android:layout_gravity="center_horizontal|top"
+        app:layout_constraintBottom_toTopOf="@id/llBottomNav"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="-30dp"
+        app:fabCustomSize="70dp"
+        app:maxImageSize="34dp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,1130 @@
+{
+  "project_info": {
+    "project_number": "230350703445",
+    "firebase_url": "https://productoin-dfbdc-default-rtdb.firebaseio.com",
+    "project_id": "productoin-dfbdc",
+    "storage_bucket": "productoin-dfbdc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230350703445:android:3fe9899ccc02e84e913ddc",
+        "android_client_info": {
+          "package_name": "com.animo.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230350703445-qbj14ocjrk1dhv25lnuhm7g6efkk5pjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6neVLN8niFgzvZoESZRgzl2tpX0BPTbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230350703445-0huqek7nubpgka24fs6v0rp76ekosh17.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "230350703445-07b9laerd9mkth5s8gu966a76e5h6nb4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.turtlemove",
+                "app_store_id": "1641580487"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230350703445:android:f6cde59df2ff97f8913ddc",
+        "android_client_info": {
+          "package_name": "com.app.hometohomefreebies"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230350703445-qbj14ocjrk1dhv25lnuhm7g6efkk5pjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6neVLN8niFgzvZoESZRgzl2tpX0BPTbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230350703445-0huqek7nubpgka24fs6v0rp76ekosh17.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "230350703445-07b9laerd9mkth5s8gu966a76e5h6nb4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.turtlemove",
+                "app_store_id": "1641580487"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230350703445:android:70347c163b39db4b913ddc",
+        "android_client_info": {
+          "package_name": "com.musixblvd.musixblvd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230350703445-qbj14ocjrk1dhv25lnuhm7g6efkk5pjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6neVLN8niFgzvZoESZRgzl2tpX0BPTbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230350703445-0huqek7nubpgka24fs6v0rp76ekosh17.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "230350703445-07b9laerd9mkth5s8gu966a76e5h6nb4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.turtlemove",
+                "app_store_id": "1641580487"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230350703445:android:96bbc8d2796fba8f913ddc",
+        "android_client_info": {
+          "package_name": "com.sbagmehacker.simulator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230350703445-qbj14ocjrk1dhv25lnuhm7g6efkk5pjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6neVLN8niFgzvZoESZRgzl2tpX0BPTbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230350703445-0huqek7nubpgka24fs6v0rp76ekosh17.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "230350703445-07b9laerd9mkth5s8gu966a76e5h6nb4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.turtlemove",
+                "app_store_id": "1641580487"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230350703445:android:3c094d559912df07913ddc",
+        "android_client_info": {
+          "package_name": "com.sbgamehacker.simulator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230350703445-qbj14ocjrk1dhv25lnuhm7g6efkk5pjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6neVLN8niFgzvZoESZRgzl2tpX0BPTbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230350703445-0huqek7nubpgka24fs6v0rp76ekosh17.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "230350703445-07b9laerd9mkth5s8gu966a76e5h6nb4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.turtlemove",
+                "app_store_id": "1641580487"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230350703445:android:68facd4eea65efda913ddc",
+        "android_client_info": {
+          "package_name": "com.solidbundle.bestprice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230350703445-qbj14ocjrk1dhv25lnuhm7g6efkk5pjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6neVLN8niFgzvZoESZRgzl2tpX0BPTbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230350703445-0huqek7nubpgka24fs6v0rp76ekosh17.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "230350703445-07b9laerd9mkth5s8gu966a76e5h6nb4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.turtlemove",
+                "app_store_id": "1641580487"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230350703445:android:1e093d6550f1e270913ddc",
+        "android_client_info": {
+          "package_name": "com.solidbundle.bkasters"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230350703445-7tjtqdsljucq5c155u83cv6511lqj9jk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.solidbundle.bkasters",
+            "certificate_hash": "ac3a2358c1a27fe8dea066c87612f905e62fbe58"
+          }
+        },
+        {
+          "client_id": "230350703445-qbj14ocjrk1dhv25lnuhm7g6efkk5pjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6neVLN8niFgzvZoESZRgzl2tpX0BPTbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230350703445-0huqek7nubpgka24fs6v0rp76ekosh17.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "230350703445-07b9laerd9mkth5s8gu966a76e5h6nb4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.turtlemove",
+                "app_store_id": "1641580487"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230350703445:android:85b18b70f63b57c6913ddc",
+        "android_client_info": {
+          "package_name": "com.solidbundle.ebid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230350703445-qbj14ocjrk1dhv25lnuhm7g6efkk5pjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6neVLN8niFgzvZoESZRgzl2tpX0BPTbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230350703445-0huqek7nubpgka24fs6v0rp76ekosh17.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "230350703445-07b9laerd9mkth5s8gu966a76e5h6nb4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.turtlemove",
+                "app_store_id": "1641580487"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230350703445:android:76b772a09f6fc7da913ddc",
+        "android_client_info": {
+          "package_name": "com.solidbundle.foodie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230350703445-qbj14ocjrk1dhv25lnuhm7g6efkk5pjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6neVLN8niFgzvZoESZRgzl2tpX0BPTbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230350703445-0huqek7nubpgka24fs6v0rp76ekosh17.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "230350703445-07b9laerd9mkth5s8gu966a76e5h6nb4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.turtlemove",
+                "app_store_id": "1641580487"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230350703445:android:8b901f118b09f7cb913ddc",
+        "android_client_info": {
+          "package_name": "com.solidbundle.foodietruck"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230350703445-qbj14ocjrk1dhv25lnuhm7g6efkk5pjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6neVLN8niFgzvZoESZRgzl2tpX0BPTbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230350703445-0huqek7nubpgka24fs6v0rp76ekosh17.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "230350703445-07b9laerd9mkth5s8gu966a76e5h6nb4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.turtlemove",
+                "app_store_id": "1641580487"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230350703445:android:3e133fc0db8a9863913ddc",
+        "android_client_info": {
+          "package_name": "com.solidbundle.foodrecipes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230350703445-c3go8itnsruc11i0cjn9o7944b9i64ss.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.solidbundle.foodrecipes",
+            "certificate_hash": "c544f1d86510a1d853e038ea3aeb7b14d1ae8971"
+          }
+        },
+        {
+          "client_id": "230350703445-op8psr38nh0svhh0bebhtb0v15kp2pku.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.solidbundle.foodrecipes",
+            "certificate_hash": "ac3a2358c1a27fe8dea066c87612f905e62fbe58"
+          }
+        },
+        {
+          "client_id": "230350703445-vl78jhed5rkvpb1bnte4o7cnraro5ng9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.solidbundle.foodrecipes",
+            "certificate_hash": "14a2565e6b83755178f79db37ae3e1ec84ab93c3"
+          }
+        },
+        {
+          "client_id": "230350703445-qbj14ocjrk1dhv25lnuhm7g6efkk5pjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6neVLN8niFgzvZoESZRgzl2tpX0BPTbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230350703445-0huqek7nubpgka24fs6v0rp76ekosh17.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "230350703445-07b9laerd9mkth5s8gu966a76e5h6nb4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.turtlemove",
+                "app_store_id": "1641580487"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230350703445:android:a5bb08b7422ffbad913ddc",
+        "android_client_info": {
+          "package_name": "com.solidbundle.funs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230350703445-563r0rbpcteqq4sj4inh3mugoin2mvig.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.solidbundle.funs",
+            "certificate_hash": "c544f1d86510a1d853e038ea3aeb7b14d1ae8971"
+          }
+        },
+        {
+          "client_id": "230350703445-qbj14ocjrk1dhv25lnuhm7g6efkk5pjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6neVLN8niFgzvZoESZRgzl2tpX0BPTbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230350703445-0huqek7nubpgka24fs6v0rp76ekosh17.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "230350703445-07b9laerd9mkth5s8gu966a76e5h6nb4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.turtlemove",
+                "app_store_id": "1641580487"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230350703445:android:22ee2d1348b22ea7913ddc",
+        "android_client_info": {
+          "package_name": "com.solidbundle.hairtimeandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230350703445-uu3vcullc5s1l4134qfipg6pd5g67etm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.solidbundle.hairtimeandroid",
+            "certificate_hash": "ac3a2358c1a27fe8dea066c87612f905e62fbe58"
+          }
+        },
+        {
+          "client_id": "230350703445-qbj14ocjrk1dhv25lnuhm7g6efkk5pjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6neVLN8niFgzvZoESZRgzl2tpX0BPTbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230350703445-0huqek7nubpgka24fs6v0rp76ekosh17.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "230350703445-07b9laerd9mkth5s8gu966a76e5h6nb4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.turtlemove",
+                "app_store_id": "1641580487"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230350703445:android:42324f8974c205bd913ddc",
+        "android_client_info": {
+          "package_name": "com.solidbundle.latwn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230350703445-9elej1b189aqiiql9ha7ibc2jp2s7c7e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.solidbundle.latwn",
+            "certificate_hash": "ac3a2358c1a27fe8dea066c87612f905e62fbe58"
+          }
+        },
+        {
+          "client_id": "230350703445-qbj14ocjrk1dhv25lnuhm7g6efkk5pjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6neVLN8niFgzvZoESZRgzl2tpX0BPTbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230350703445-0huqek7nubpgka24fs6v0rp76ekosh17.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "230350703445-07b9laerd9mkth5s8gu966a76e5h6nb4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.turtlemove",
+                "app_store_id": "1641580487"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230350703445:android:954abf3cadf76d3f913ddc",
+        "android_client_info": {
+          "package_name": "com.solidbundle.lyve"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230350703445-qbj14ocjrk1dhv25lnuhm7g6efkk5pjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6neVLN8niFgzvZoESZRgzl2tpX0BPTbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230350703445-0huqek7nubpgka24fs6v0rp76ekosh17.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "230350703445-07b9laerd9mkth5s8gu966a76e5h6nb4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.turtlemove",
+                "app_store_id": "1641580487"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230350703445:android:68dfca9e25cbab97913ddc",
+        "android_client_info": {
+          "package_name": "com.solidbundle.punchclocker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230350703445-23n7rg03uto6bfp07h3kr9mesjtn3pnj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.solidbundle.punchclocker",
+            "certificate_hash": "ac3a2358c1a27fe8dea066c87612f905e62fbe58"
+          }
+        },
+        {
+          "client_id": "230350703445-qbj14ocjrk1dhv25lnuhm7g6efkk5pjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6neVLN8niFgzvZoESZRgzl2tpX0BPTbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230350703445-0huqek7nubpgka24fs6v0rp76ekosh17.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "230350703445-07b9laerd9mkth5s8gu966a76e5h6nb4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.turtlemove",
+                "app_store_id": "1641580487"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230350703445:android:24643cca8eedc639913ddc",
+        "android_client_info": {
+          "package_name": "com.solidbundle.qmoney"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230350703445-k45qjajs9tbd0aonp6khbb9e3lctdl42.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.solidbundle.qmoney",
+            "certificate_hash": "c544f1d86510a1d853e038ea3aeb7b14d1ae8971"
+          }
+        },
+        {
+          "client_id": "230350703445-qbj14ocjrk1dhv25lnuhm7g6efkk5pjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6neVLN8niFgzvZoESZRgzl2tpX0BPTbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230350703445-0huqek7nubpgka24fs6v0rp76ekosh17.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "230350703445-07b9laerd9mkth5s8gu966a76e5h6nb4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.turtlemove",
+                "app_store_id": "1641580487"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230350703445:android:2ad31c740160cdb7913ddc",
+        "android_client_info": {
+          "package_name": "com.solidbundle.qmoneyadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230350703445-qbj14ocjrk1dhv25lnuhm7g6efkk5pjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6neVLN8niFgzvZoESZRgzl2tpX0BPTbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230350703445-0huqek7nubpgka24fs6v0rp76ekosh17.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "230350703445-07b9laerd9mkth5s8gu966a76e5h6nb4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.turtlemove",
+                "app_store_id": "1641580487"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230350703445:android:2edb02a6e9d692dd913ddc",
+        "android_client_info": {
+          "package_name": "com.solidbundle.sbgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230350703445-ludmoku403qignplgv4m2f5s0a736aru.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.solidbundle.sbgame",
+            "certificate_hash": "c544f1d86510a1d853e038ea3aeb7b14d1ae8971"
+          }
+        },
+        {
+          "client_id": "230350703445-qbj14ocjrk1dhv25lnuhm7g6efkk5pjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6neVLN8niFgzvZoESZRgzl2tpX0BPTbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230350703445-0huqek7nubpgka24fs6v0rp76ekosh17.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "230350703445-07b9laerd9mkth5s8gu966a76e5h6nb4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.turtlemove",
+                "app_store_id": "1641580487"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230350703445:android:992b50ae7dc9577a913ddc",
+        "android_client_info": {
+          "package_name": "com.solidbundle.shatably"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230350703445-4il6dpmk781p8n6q5pkqft4c4d79h3ma.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.solidbundle.shatably",
+            "certificate_hash": "ac3a2358c1a27fe8dea066c87612f905e62fbe58"
+          }
+        },
+        {
+          "client_id": "230350703445-qbj14ocjrk1dhv25lnuhm7g6efkk5pjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6neVLN8niFgzvZoESZRgzl2tpX0BPTbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230350703445-0huqek7nubpgka24fs6v0rp76ekosh17.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "230350703445-07b9laerd9mkth5s8gu966a76e5h6nb4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.turtlemove",
+                "app_store_id": "1641580487"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230350703445:android:5892c99d6ffb3b71913ddc",
+        "android_client_info": {
+          "package_name": "com.solidbundle.streamaudio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230350703445-stqkap8g7609ca3silibrl02frp5503e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.solidbundle.streamaudio",
+            "certificate_hash": "ac3a2358c1a27fe8dea066c87612f905e62fbe58"
+          }
+        },
+        {
+          "client_id": "230350703445-qbj14ocjrk1dhv25lnuhm7g6efkk5pjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6neVLN8niFgzvZoESZRgzl2tpX0BPTbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230350703445-0huqek7nubpgka24fs6v0rp76ekosh17.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "230350703445-07b9laerd9mkth5s8gu966a76e5h6nb4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.turtlemove",
+                "app_store_id": "1641580487"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230350703445:android:bd2fdf0b2528d824913ddc",
+        "android_client_info": {
+          "package_name": "com.solidbundle.talibayati"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230350703445-qj59a3pk830p4dujimpqhm6na740o4lk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.solidbundle.talibayati",
+            "certificate_hash": "ac3a2358c1a27fe8dea066c87612f905e62fbe58"
+          }
+        },
+        {
+          "client_id": "230350703445-s63rjve5hgdv8sjn5mqtreo1qden3d01.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.solidbundle.talibayati",
+            "certificate_hash": "c544f1d86510a1d853e038ea3aeb7b14d1ae8971"
+          }
+        },
+        {
+          "client_id": "230350703445-qbj14ocjrk1dhv25lnuhm7g6efkk5pjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6neVLN8niFgzvZoESZRgzl2tpX0BPTbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230350703445-0huqek7nubpgka24fs6v0rp76ekosh17.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "230350703445-07b9laerd9mkth5s8gu966a76e5h6nb4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.turtlemove",
+                "app_store_id": "1641580487"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230350703445:android:fc3364fd74296ff9913ddc",
+        "android_client_info": {
+          "package_name": "com.solidbundle.talibayatii"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230350703445-qbj14ocjrk1dhv25lnuhm7g6efkk5pjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6neVLN8niFgzvZoESZRgzl2tpX0BPTbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230350703445-0huqek7nubpgka24fs6v0rp76ekosh17.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "230350703445-07b9laerd9mkth5s8gu966a76e5h6nb4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.turtlemove",
+                "app_store_id": "1641580487"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230350703445:android:7d90bafe3ebec0ee913ddc",
+        "android_client_info": {
+          "package_name": "com.solidbundle.wiregaugerulerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230350703445-qbj14ocjrk1dhv25lnuhm7g6efkk5pjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6neVLN8niFgzvZoESZRgzl2tpX0BPTbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230350703445-0huqek7nubpgka24fs6v0rp76ekosh17.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "230350703445-07b9laerd9mkth5s8gu966a76e5h6nb4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.turtlemove",
+                "app_store_id": "1641580487"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230350703445:android:362312fd5d5e6bc2913ddc",
+        "android_client_info": {
+          "package_name": "com.solidbundle.wolfpattern"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230350703445-qbj14ocjrk1dhv25lnuhm7g6efkk5pjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6neVLN8niFgzvZoESZRgzl2tpX0BPTbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230350703445-0huqek7nubpgka24fs6v0rp76ekosh17.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "230350703445-07b9laerd9mkth5s8gu966a76e5h6nb4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.turtlemove",
+                "app_store_id": "1641580487"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230350703445:android:6a3243fcde5eec8d913ddc",
+        "android_client_info": {
+          "package_name": "com.solidbundle.wolfpatternadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230350703445-jk9049dm7vnu85jqobq8m902do6namdg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.solidbundle.wolfpatternadmin",
+            "certificate_hash": "ac3a2358c1a27fe8dea066c87612f905e62fbe58"
+          }
+        },
+        {
+          "client_id": "230350703445-qbj14ocjrk1dhv25lnuhm7g6efkk5pjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6neVLN8niFgzvZoESZRgzl2tpX0BPTbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230350703445-0huqek7nubpgka24fs6v0rp76ekosh17.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "230350703445-07b9laerd9mkth5s8gu966a76e5h6nb4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.turtlemove",
+                "app_store_id": "1641580487"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230350703445:android:667c2dee3a20313a913ddc",
+        "android_client_info": {
+          "package_name": "receive.sms.verification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230350703445-qbj14ocjrk1dhv25lnuhm7g6efkk5pjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6neVLN8niFgzvZoESZRgzl2tpX0BPTbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230350703445-0huqek7nubpgka24fs6v0rp76ekosh17.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "230350703445-07b9laerd9mkth5s8gu966a76e5h6nb4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.turtlemove",
+                "app_store_id": "1641580487"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

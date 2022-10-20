@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="112dp"
+    android:layout_height="112dp"
+    >
+
+    <ImageButton
+        android:id="@+id/ibAdd"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_add_image"
+        android:background="@android:color/transparent"
+        android:elevation="55dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="center"
+        />
+
+</FrameLayout>

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.AddProductActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+       <androidx.constraintlayout.widget.ConstraintLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <ImageButton
+               android:id="@+id/ibBack"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/ic_back"
+               android:background="@android:color/transparent"
+               android:padding="10dp"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintTop_toTopOf="parent"
+               android:layout_margin="16dp"
+               />
+
+           <TextView
+               android:id="@+id/tvAdd"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="start"
+               android:fontFamily="@font/poppins_medium"
+               android:text="ADD"
+               android:textColor="@color/colorPrimary"
+               android:background="@drawable/tv_login_background"
+               android:padding="5dp"
+               android:textSize="20sp"
+               app:layout_constraintStart_toEndOf="@id/ibBack"
+               app:layout_constraintTop_toTopOf="@id/ibBack"
+               app:layout_constraintBottom_toBottomOf="@id/ibBack"
+               android:layout_marginStart="5dp"
+               />
+
+           <androidx.recyclerview.widget.RecyclerView
+               android:id="@+id/rvImages"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:clipToPadding="false"
+               app:layout_constraintTop_toBottomOf="@id/tvAdd"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintEnd_toEndOf="parent"
+               android:layout_margin="16dp"
+               tools:listitem="@layout/layout_image_item"
+               android:orientation="horizontal"
+               app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+               />
+
+           <LinearLayout
+               android:id="@+id/llTitle"
+               android:layout_width="match_parent"
+               android:layout_height="45dp"
+               android:orientation="horizontal"
+               android:background="@drawable/edt_text_border"
+               android:layout_marginTop="40dp"
+               android:gravity="center_vertical"
+               app:layout_constraintTop_toBottomOf="@id/rvImages"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintEnd_toEndOf="parent"
+               android:layout_marginStart="16dp"
+               android:layout_marginEnd="16dp"
+               >
+
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/ic_tag"
+                   android:layout_marginStart="15dp"/>
+
+               <EditText
+                   android:id="@+id/etTitle"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_marginStart="12dp"
+                   android:layout_marginEnd="12dp"
+                   android:background="@android:color/transparent"
+                   android:fontFamily="@font/poppins"
+                   android:hint="Title"
+                   android:inputType="textEmailAddress"
+                   android:textSize="15sp" />
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:id="@+id/llDescription"
+               android:layout_width="match_parent"
+               android:layout_height="120dp"
+               android:orientation="horizontal"
+               android:background="@drawable/edt_text_border"
+               android:layout_marginTop="15dp"
+               android:gravity="center_vertical"
+               app:layout_constraintTop_toBottomOf="@id/llTitle"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintEnd_toEndOf="parent"
+               android:layout_marginStart="16dp"
+               android:layout_marginEnd="16dp"
+               >
+
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/ic_description"
+                   android:layout_gravity="top"
+                   android:layout_marginStart="15dp"
+                   android:layout_marginTop="15dp"
+                   />
+
+               <EditText
+                   android:id="@+id/etDescription"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_marginStart="12dp"
+                   android:layout_marginEnd="12dp"
+                   android:background="@android:color/transparent"
+                   android:fontFamily="@font/poppins"
+                   android:hint="Description"
+                   android:inputType="textEmailAddress"
+                   android:gravity="top"
+                   android:textSize="15sp"
+                   android:paddingTop="12dp"
+                   android:paddingBottom="12dp"
+                   />
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:id="@+id/llCategory"
+               android:layout_width="match_parent"
+               android:layout_height="45dp"
+               android:orientation="horizontal"
+               android:background="@drawable/edt_text_border"
+               android:layout_marginTop="16dp"
+               android:gravity="center_vertical"
+               app:layout_constraintTop_toBottomOf="@id/llDescription"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintEnd_toEndOf="parent"
+               android:layout_marginStart="16dp"
+               android:layout_marginEnd="16dp"
+               >
+
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/ic_category"
+                   android:layout_marginStart="15dp"/>
+
+               <TextView
+                   android:id="@+id/tvCategory"
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:layout_marginStart="12dp"
+                   android:layout_marginEnd="12dp"
+                   android:background="@android:color/transparent"
+                   android:fontFamily="@font/poppins"
+                   android:hint="Category"
+                   android:gravity="center_vertical"
+                   android:textSize="15sp" />
+
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/ic_bottom_arrow"
+                   android:layout_marginEnd="16dp"
+                   />
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:id="@+id/llLocation"
+               android:layout_width="match_parent"
+               android:layout_height="45dp"
+               android:orientation="horizontal"
+               android:background="@drawable/edt_text_border"
+               android:layout_marginTop="16dp"
+               android:gravity="center_vertical"
+               app:layout_constraintTop_toBottomOf="@id/llCategory"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintEnd_toEndOf="parent"
+               android:layout_marginStart="16dp"
+               android:layout_marginEnd="16dp"
+               >
+
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/ic_location"
+                   android:layout_marginStart="15dp"/>
+
+               <EditText
+                   android:id="@+id/etLocation"
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:layout_marginStart="12dp"
+                   android:layout_marginEnd="12dp"
+                   android:background="@android:color/transparent"
+                   android:fontFamily="@font/poppins"
+                   android:hint="Location"
+                   android:inputType="textEmailAddress"
+                   android:textSize="15sp"
+                   android:ellipsize="end"
+                   />
+
+               <ImageButton
+                   android:id="@+id/ibSearchLocation"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/ic_add_location"
+                   android:background="@android:color/transparent"
+                   android:layout_marginEnd="16dp"
+                   />
+
+           </LinearLayout>
+
+           <androidx.cardview.widget.CardView
+               android:id="@+id/mapCard"
+               android:layout_width="0dp"
+               android:layout_height="220dp"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintEnd_toEndOf="parent"
+               app:layout_constraintTop_toBottomOf="@id/llLocation"
+               app:cardCornerRadius="20dp"
+               android:layout_margin="16dp"
+               >
+
+               <fragment
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:id="@+id/map"
+                   android:name="com.google.android.gms.maps.SupportMapFragment"
+                   />
+
+           </androidx.cardview.widget.CardView>
+
+           <FrameLayout
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               app:layout_constraintTop_toBottomOf="@id/mapCard"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintEnd_toEndOf="parent"
+               app:layout_constraintBottom_toBottomOf="parent"
+               android:layout_marginStart="16dp"
+               android:layout_marginEnd="16dp"
+               android:layout_marginTop="40dp"
+               android:layout_marginBottom="30dp"
+               >
+
+               <androidx.appcompat.widget.AppCompatButton
+                   android:id="@+id/btnDone"
+                   android:layout_width="match_parent"
+                   android:layout_height="45dp"
+                   android:text="DONE"
+                   android:textSize="16sp"
+                   android:fontFamily="@font/poppins"
+                   android:background="@drawable/btn_background"
+                   android:textColor="#fff"
+                   />
+
+               <com.google.android.material.progressindicator.CircularProgressIndicator
+                   android:id="@+id/doneProgress"
+                   android:layout_width="20dp"
+                   android:layout_height="20dp"
+                   android:layout_gravity="center"
+                   android:indeterminate="true"
+                   app:indicatorSize="20dp"
+                   android:visibility="gone"
+                   android:elevation="15dp"
+                   app:indicatorColor="#fff"
+                   />
+
+           </FrameLayout>
+
+
+       </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+
+
+</FrameLayout>

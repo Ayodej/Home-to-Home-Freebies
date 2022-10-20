@@ -1,0 +1,91 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    compileSdk 32
+
+    defaultConfig {
+        applicationId "com.app.hometohomefreebies"
+        minSdk 21
+        targetSdk 32
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.5.1'
+    implementation 'com.google.android.material:material:1.6.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    //Android Navigation
+    implementation 'androidx.navigation:navigation-fragment:2.5.2'
+    implementation 'androidx.navigation:navigation-ui:2.5.2'
+
+    //Retrofit
+    implementation "com.squareup.retrofit2:retrofit:$retrofit"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofit"
+    implementation "com.squareup.retrofit2:converter-scalars:$retrofit"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:$retrofit"
+
+    // RxJava
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.10'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+
+    //debug
+    implementation(platform("com.squareup.okhttp3:okhttp-bom:$okhttp3"))
+    implementation("com.squareup.okhttp3:okhttp")
+    implementation("com.squareup.okhttp3:logging-interceptor")
+
+    //Gson
+    implementation "com.google.code.gson:gson:$gson"
+
+    // Lifecycle
+    implementation "androidx.lifecycle:lifecycle-extensions:2.2.0"
+
+    //Circular image view
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+    //Glide
+    implementation "com.github.bumptech.glide:glide:$glide"
+    annotationProcessor "com.github.bumptech.glide:compiler:$glide"
+
+    //Image Picker
+    implementation 'com.zhihu.android:matisse:0.5.3-beta3'
+
+    //Shimmer
+    implementation 'com.facebook.shimmer:shimmer:0.5.0'
+
+    //Google play service
+    implementation 'com.google.android.gms:play-services-maps:18.1.0'
+    implementation 'com.google.android.gms:play-services-location:20.0.0'
+    implementation 'com.google.android.libraries.places:places:2.6.0'
+
+    //SwipeRefresh
+    implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.0.0")
+
+}

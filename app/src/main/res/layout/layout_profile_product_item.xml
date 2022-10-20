@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/ivImg"
+        android:layout_width="112dp"
+        android:layout_height="112dp"
+        android:background="@drawable/category_text_border"
+        tools:src="@drawable/chair"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:text="Chairs"
+        android:fontFamily="@font/poppins"
+        android:layout_marginTop="5dp"
+        android:gravity="start"
+        android:textColor="#7D6E83"
+        android:textSize="17sp"/>
+
+</LinearLayout>
