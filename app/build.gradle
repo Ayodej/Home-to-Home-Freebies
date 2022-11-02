@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'com.google.gms.google-services'
+    id 'com.onesignal.androidsdk.onesignal-gradle-plugin'
 }
 
 android {
@@ -87,5 +88,11 @@ dependencies {
 
     //SwipeRefresh
     implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.0.0")
+
+    //Pusher
+    implementation 'com.pusher:pusher-java-client:2.2.6'
+
+    //One Signal
+    implementation 'com.onesignal:OneSignal:[4.0.0, 4.99.99]'
 
 }

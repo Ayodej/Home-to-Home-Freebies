@@ -1,9 +1,14 @@
 package com.app.hometohomefreebies.fragment;
 
 import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
+import androidx.activity.result.ActivityResult;
+import androidx.activity.result.ActivityResultCallback;
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
@@ -54,6 +59,7 @@ public class HomeFragment extends Fragment implements ProductsAdapter.Interactio
 
     private ProductsAdapter productsAdapter;
 
+    ActivityResultLauncher<Intent> viewProductActivityLauncher;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -76,9 +82,15 @@ public class HomeFragment extends Fragment implements ProductsAdapter.Interactio
     }
 
     private void initListeners(){
-        binding.swipeRefreshLayout.setOnRefreshListener(() -> {
-            getProducts();
-        });
+        viewProductActivityLauncher = registerForActivityResult(
+                new ActivityResultContracts.StartActivityForResult(),
+                result -> {
+                    if (result.getResultCode() == Activity.RESULT_OK) {
+                        getProducts();
+                    }
+                });
+
+        binding.swipeRefreshLayout.setOnRefreshListener(this::getProducts);
 
         TextWatcher textWatcher = new TextWatcher() {
             @Override
@@ -162,7 +174,7 @@ public class HomeFragment extends Fragment implements ProductsAdapter.Interactio
     }
 
     @SuppressLint("CheckResult")
-    private void getProducts(){
+    void getProducts(){
         apiService
                 .getProducts()
                 .subscribeOn(Schedulers.io())
@@ -188,7 +200,7 @@ public class HomeFragment extends Fragment implements ProductsAdapter.Interactio
     public void onProductClicked(Product product) {
         Intent intent = new Intent(requireContext(), ViewProductActivity.class);
         intent.putExtra("product", product);
-        startActivity(intent);
+        viewProductActivityLauncher.launch(intent);
     }
 
     @Override

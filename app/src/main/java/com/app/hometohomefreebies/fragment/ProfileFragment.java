@@ -18,6 +18,7 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.app.hometohomefreebies.R;
+import com.app.hometohomefreebies.activity.ChatActivity;
 import com.app.hometohomefreebies.activity.EditProfileActivity;
 import com.app.hometohomefreebies.activity.SplashActivity;
 import com.app.hometohomefreebies.activity.ViewProductActivity;
@@ -101,6 +102,10 @@ public class ProfileFragment extends Fragment implements ProfileProductsAdapter.
 
             AlertDialog alertDialog = builder.create();
             alertDialog.show();
+        });
+
+        binding.btnSendMessage.setOnClickListener(view -> {
+            startActivity(new Intent(requireContext(), ChatActivity.class));
         });
     }
 

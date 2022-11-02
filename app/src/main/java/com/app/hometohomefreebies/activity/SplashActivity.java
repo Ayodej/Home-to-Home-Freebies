@@ -17,6 +17,8 @@ import com.app.hometohomefreebies.databinding.ActivitySplashBinding;
 import com.app.hometohomefreebies.model.User;
 import com.app.hometohomefreebies.network.ApiClient;
 import com.app.hometohomefreebies.network.ApiService;
+import com.onesignal.OSDeviceState;
+import com.onesignal.OneSignal;
 
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.observers.DisposableSingleObserver;
@@ -49,8 +51,15 @@ public class SplashActivity extends AppCompatActivity {
             finish();
         }else{
             Config.token = "Bearer " + token;
+
+            OSDeviceState device = OneSignal.getDeviceState();
+            String pushToken = device.getUserId();
+            if(pushToken == null){
+                pushToken = "notificationToken";
+            }
+
             apiService
-                    .myData("notificationToken", Settings.Secure.getString(
+                    .myData(pushToken, Settings.Secure.getString(
                             getContentResolver(),
                             Settings.Secure.ANDROID_ID
                     ))

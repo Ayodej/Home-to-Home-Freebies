@@ -12,5 +12,7 @@
     <color name="background">#FFF9E7</color>
     <color name="colorPrimary">#7D6E83</color>
     <color name="edt_text_fill">#FAF7F1</color>
+    <color name="placeholder_color">#dddddd</color>
+
 
 </resources>

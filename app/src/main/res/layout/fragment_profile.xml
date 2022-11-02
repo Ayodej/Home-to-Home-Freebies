@@ -104,18 +104,33 @@
         app:spanCount="3"
         />
 
-    <androidx.appcompat.widget.AppCompatButton
+    <ImageButton
         android:id="@+id/btnLogout"
-        android:layout_width="70dp"
-        android:layout_height="40dp"
-        android:text="Logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@id/tvProfile"
         app:layout_constraintBottom_toBottomOf="@id/tvProfile"
         android:textAllCaps="false"
         android:textSize="14sp"
-        android:background="@drawable/logout_background"
-        android:textColor="@android:color/holo_red_dark"
+        android:background="?selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_logout"
+        android:padding="5dp"
+        />
+
+    <ImageButton
+        android:id="@+id/btnSendMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@id/btnLogout"
+        app:layout_constraintTop_toTopOf="@id/tvProfile"
+        app:layout_constraintBottom_toBottomOf="@id/tvProfile"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        android:background="?selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_send"
+        android:padding="5dp"
+        android:layout_marginEnd="16dp"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

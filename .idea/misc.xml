@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/btn_background.xml" value="0.1985" />
+        <entry key="app/src/main/res/drawable/bubble_in.xml" value="0.221" />
         <entry key="app/src/main/res/drawable/call_btn_background.xml" value="0.1985" />
         <entry key="app/src/main/res/drawable/category_text_border.xml" value="0.1985" />
         <entry key="app/src/main/res/drawable/circle.xml" value="0.1985" />
@@ -11,30 +12,42 @@
         <entry key="app/src/main/res/drawable/circle3.xml" value="0.1985" />
         <entry key="app/src/main/res/drawable/edt_text_border.xml" value="0.1985" />
         <entry key="app/src/main/res/drawable/ic_add.xml" value="0.1985" />
+        <entry key="app/src/main/res/drawable/ic_back_grey.xml" value="0.221" />
         <entry key="app/src/main/res/drawable/ic_close.xml" value="0.1985" />
         <entry key="app/src/main/res/drawable/ic_email.xml" value="0.1985" />
         <entry key="app/src/main/res/drawable/ic_password.xml" value="0.1985" />
+        <entry key="app/src/main/res/drawable/ic_search_white.xml" value="0.221" />
+        <entry key="app/src/main/res/drawable/ic_send.xml" value="0.221" />
         <entry key="app/src/main/res/drawable/ic_tag.xml" value="0.1985" />
         <entry key="app/src/main/res/drawable/logout_background.xml" value="0.221" />
         <entry key="app/src/main/res/drawable/map_background.xml" value="0.1985" />
         <entry key="app/src/main/res/drawable/rounded_nav.xml" value="0.1985" />
         <entry key="app/src/main/res/drawable/search_border.xml" value="0.1985" />
+        <entry key="app/src/main/res/drawable/search_field_background.xml" value="0.221" />
+        <entry key="app/src/main/res/drawable/search_header_background.xml" value="0.221" />
         <entry key="app/src/main/res/drawable/tv_login_background.xml" value="0.1985" />
+        <entry key="app/src/main/res/drawable/unread_messages_circle.xml" value="0.221" />
         <entry key="app/src/main/res/layout/activity_add_product.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_chat.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_edit_profile.xml" value="0.33541666666666664" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_messages.xml" value="0.33541666666666664" />
         <entry key="app/src/main/res/layout/activity_products.xml" value="0.32135416666666666" />
         <entry key="app/src/main/res/layout/activity_profile.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.18" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.22" />
-        <entry key="app/src/main/res/layout/activity_view_product.xml" value="0.16" />
+        <entry key="app/src/main/res/layout/activity_view_product.xml" value="0.2" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/ic_send_message.xml" value="0.33541666666666664" />
         <entry key="app/src/main/res/layout/layout_add_image.xml" value="0.33541666666666664" />
         <entry key="app/src/main/res/layout/layout_add_image_item.xml" value="0.33541666666666664" />
         <entry key="app/src/main/res/layout/layout_category_item.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/layout_chat_item.xml" value="0.33" />
         <entry key="app/src/main/res/layout/layout_image_item.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/layout_message_row_incoming.xml" value="0.33541666666666664" />
+        <entry key="app/src/main/res/layout/layout_message_row_outgoing.xml" value="0.33541666666666664" />
         <entry key="app/src/main/res/layout/layout_product_item.xml" value="0.25" />
         <entry key="app/src/main/res/layout/layout_profile_product_item.xml" value="0.33541666666666664" />
         <entry key="app/src/main/res/menu/main_bottom_nav_menu.xml" value="0.33541666666666664" />

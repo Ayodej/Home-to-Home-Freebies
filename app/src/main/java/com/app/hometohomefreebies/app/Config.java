@@ -15,6 +15,7 @@ import androidx.core.content.ContextCompat;
 
 import com.app.hometohomefreebies.R;
 import com.app.hometohomefreebies.model.User;
+import com.pusher.client.Pusher;
 import com.zhihu.matisse.Matisse;
 import com.zhihu.matisse.MimeType;
 import com.zhihu.matisse.engine.impl.GlideEngine;
@@ -28,10 +29,13 @@ import okhttp3.RequestBody;
 public class Config {
 
     public static final String BASE_URL = "http://hometohomefreebies.solidbundle.com/api/v1/";
+//    public static final String BASE_URL = "http://192.168.1.2:8000/api/v1/";
 
     public static User user = new User();
 
     public static String token = "";
+
+    public static Pusher pusher;
 
     public static MultipartBody.Part prepareFilePart(String partName, String filePath) {
 

@@ -2,9 +2,11 @@ package com.app.hometohomefreebies.network;
 
 import com.app.hometohomefreebies.model.Authorize;
 import com.app.hometohomefreebies.model.Category;
+import com.app.hometohomefreebies.model.Chat;
 import com.app.hometohomefreebies.model.Product;
 import com.app.hometohomefreebies.model.User;
 
+import java.util.HashMap;
 import java.util.List;
 
 import io.reactivex.Completable;
@@ -14,6 +16,8 @@ import retrofit2.http.GET;
 import retrofit2.http.Multipart;
 import retrofit2.http.POST;
 import retrofit2.http.Part;
+import retrofit2.http.PartMap;
+import retrofit2.http.Path;
 
 public interface ApiService {
 
@@ -84,5 +88,47 @@ public interface ApiService {
     Single<List<Product>> search(
             @Part("query") String query
     );
+
+    @Multipart
+    @POST("delete-product")
+    Completable deleteProduct(
+            @Part("product_id") int productId
+    );
+
+    //=================Start Chat====================//
+
+    @GET("chat/my-chats")
+    Single<List<Chat>> getMyChats();
+
+    @GET("chat/{chatId}/read")
+    Completable readChat(
+            @Path("chatId") int chatId
+    );
+
+    @Multipart
+    @POST("chat/by-user")
+    Single<Chat> getChatByUser(
+            @Part("user_id") int userId
+    );
+
+    @Multipart
+    @POST("chat/create")
+    Single<Chat> createChat(
+            @Part("user_id") int userId
+    );
+
+    //=================End Chat====================//
+
+    //=================Start Message====================//
+
+    @Multipart
+    @POST("message/create")
+    Completable createMessage(
+            @Part("message") String message,
+            @Part("type") String type,
+            @Part("chat_id") int chatId
+    );
+
+    //=================End Message====================//
 
 }
