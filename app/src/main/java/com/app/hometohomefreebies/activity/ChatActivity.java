@@ -32,7 +32,6 @@ public class ChatActivity extends AppCompatActivity implements ChatsAdapter.Inte
     private ActivityChatBinding binding;
 
     private final ApiService apiService = ApiClient.getClient(this).create(ApiService.class);
-
     private ChatsAdapter chatsAdapter;
 
     private List<Chat> chatList = new ArrayList<>();
