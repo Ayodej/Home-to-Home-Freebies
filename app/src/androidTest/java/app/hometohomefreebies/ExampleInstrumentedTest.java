@@ -1,4 +1,4 @@
-package com.app.hometohomefreebies;
+package app.hometohomefreebies;
 
 import android.content.Context;
 
