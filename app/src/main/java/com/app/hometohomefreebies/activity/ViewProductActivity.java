@@ -40,6 +40,8 @@ import io.reactivex.schedulers.Schedulers;
 
 public class ViewProductActivity extends AppCompatActivity {
 
+    //Variables and hooks...
+
     private final Activity context = ViewProductActivity.this;
 
     private ActivityViewProductBinding binding;
