@@ -20,7 +20,7 @@
         android:id="@+id/tvFullName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ahmed Abdeen"
+        android:text="Ayodeji Abetesola"
         android:textColor="#293462"
         android:fontFamily="@font/poppins_bold"
         android:textSize="15sp"

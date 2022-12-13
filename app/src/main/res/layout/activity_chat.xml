@@ -147,6 +147,7 @@
                 app:layout_constraintTop_toTopOf="parent"/>
 
 
+
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rvChats"
                 android:layout_width="0dp"

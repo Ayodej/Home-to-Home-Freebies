@@ -29,6 +29,7 @@ public class LoginActivity extends AppCompatActivity {
 
     private final Context context = LoginActivity.this;
 
+
     private ActivityLoginBinding binding;
 
     private final ApiService apiService = ApiClient.getClient(this).create(ApiService.class);
@@ -44,6 +45,7 @@ public class LoginActivity extends AppCompatActivity {
 
     private void initListeners(){
         binding.tvSignUp.setOnClickListener(view -> {
+
             startActivity(new Intent(context, RegisterActivity.class));
         });
 
